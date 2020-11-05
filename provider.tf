@@ -37,13 +37,13 @@ terraform {
   required_version = "~> 0.13"
 }
 
-#terraform {
-#  backend "remote" {
-#    hostname     = "app.terraform.io"
-#    organization = "onlydole"
-#
-#    workspaces {
-#      name = "a-tale-of-two-clouds"
-#    }
-#  }
-#}
+terraform {
+  backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "iic"
+
+    workspaces {
+      name = "eksTF"
+    }
+  }
+}
