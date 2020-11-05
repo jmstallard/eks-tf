@@ -19,7 +19,7 @@ variable "availability_zones" {
 variable "cluster_version" {
   type        = string
   description = "The Kubernetes version for our clusters"
-  default     = "1.18"
+  default     = "1.17"
 }
 
 variable "cidr" {
